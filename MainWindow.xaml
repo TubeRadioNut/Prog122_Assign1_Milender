@@ -9,7 +9,8 @@
     Title="MainWindow"
     Height="450"
     Width="800">
-    <Grid>
+    <Grid
+        Background="#FF87A5D6">
         <Label
             Content="Enter Number 1"
             HorizontalAlignment="Left"
