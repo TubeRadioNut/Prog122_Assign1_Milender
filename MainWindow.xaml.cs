@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿//Charles Milender
+//4-10-2024
+//Programming 122
+//Assignment 1 - Basic Calculator
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -18,7 +22,9 @@ namespace Prog122_Assign1_Milender
     {
         public MainWindow()
         {
-            InitializeComponent();
-        }
-    }
-}
+            InitializeComponent();//<--Don't delete this
+        }//end of the MainWindow
+
+
+    }//end of the class
+}//end of namespace
