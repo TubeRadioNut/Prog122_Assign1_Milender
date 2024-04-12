@@ -6,36 +6,43 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:Prog122_Assign1_Milender"
     mc:Ignorable="d"
-    Title="MainWindow"
+    Title="Simple Calculator"
     Height="450"
     Width="800">
     <Grid
         Background="#FF87A5D6">
+        <!--Create labels for text box input-->
         <Label
-            Content="Enter Number 1"
+            Content="Enter Your First Number"
             HorizontalAlignment="Left"
-            Margin="54,88,0,0"
+            Margin="54,83,0,0"
             VerticalAlignment="Top"
-            RenderTransformOrigin="-0.081,0.533" />
+            RenderTransformOrigin="-0.081,0.533"
+            FontSize="16" />
         <Label
-            Content="Enter Number 2"
+            Content="Enter Your Second Number"
             HorizontalAlignment="Left"
             Margin="54,233,0,0"
-            VerticalAlignment="Top" />
+            VerticalAlignment="Top"
+            FontSize="16" />
+        <!--Create text boxes for user iput-->
         <TextBox
             x:Name="txtNumber1"
             HorizontalAlignment="Left"
             Margin="54,114,0,0"
             TextWrapping="Wrap"
             VerticalAlignment="Top"
-            Width="120" />
+            Width="266" 
+            Padding="5"/>
         <TextBox
             x:Name="txtNumber2"
             HorizontalAlignment="Left"
             Margin="54,264,0,0"
             TextWrapping="Wrap"
             VerticalAlignment="Top"
-            Width="120" />
+            Width="266" 
+            Padding="5"/>
+        <!--Create buttons for add, subtract, multiply, divide-->
         <Button
             x:Name="btnAdd"
             Content="Add"
@@ -48,7 +55,7 @@
             x:Name="btnSubtract"
             Content="Subtract"
             HorizontalAlignment="Left"
-            Margin="101,182,0,0"
+            Margin="111,182,0,0"
             VerticalAlignment="Top" 
             Padding="5"
             Click="btnSubtract_Click" />
@@ -56,16 +63,18 @@
             x:Name="btnMultiply"
             Content="Multiply"
             HorizontalAlignment="Left"
-            Margin="185,182,0,0"
+            Margin="195,182,0,0"
             VerticalAlignment="Top"
-            Padding="5"/>
+            Padding="5"
+            Click="btnMultiply_Click" />
         <Button
             x:Name="btnDivide"
             Content="Divide"
             HorizontalAlignment="Left"
             Margin="275,182,0,0"
             VerticalAlignment="Top" 
-            Padding="5"/>
+            Padding="5"
+            Click="btnDivide_Click" />
 
     </Grid>
 </Window>
