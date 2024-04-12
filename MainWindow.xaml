@@ -42,14 +42,16 @@
             HorizontalAlignment="Left"
             Margin="54,182,0,0"
             VerticalAlignment="Top"
-            Padding="5" />
+            Padding="5"
+            Click="btnAdd_Click" />
         <Button
             x:Name="btnSubtract"
             Content="Subtract"
             HorizontalAlignment="Left"
             Margin="101,182,0,0"
             VerticalAlignment="Top" 
-            Padding="5"/>
+            Padding="5"
+            Click="btnSubtract_Click" />
         <Button
             x:Name="btnMultiply"
             Content="Multiply"
